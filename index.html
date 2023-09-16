@@ -38,13 +38,13 @@
       </section>
       
       <section class="footer">
-        <div>
+        <div class="btnSpiderman">
           <img src="https://i.ibb.co/tKWqw8J/spiderman.png" alt="spiderman">
         </div>
-        <div>
+        <div class="btnRobin">
           <img src="https://i.ibb.co/Xzsdvgg/robin.png" alt="robin">
         </div>
-        <div>
+        <div class="btnBatman">
           <img src="https://i.ibb.co/M18p91c/batman.webp" alt="batman">
         </div>
       </section>
@@ -57,9 +57,51 @@
       <div></div>
     </section>
     <!-- Modal -->
-    <section>
-
+    <section class="modal inactive">
+      <div class="modal__content">
+        <img  class="modal__content--close" width="32" height="32" src="https://img.icons8.com/windows/32/macos-close.png" alt="macos-close"/>
+        <div class="modal__slider">
+          <input class="inactive" type="radio" name="slider-1" id="radio-1" checked>
+          <input class="inactive" type="radio" name="slider-1" id="radio-2" checked>
+          <input class="inactive" type="radio" name="slider-1" id="radio-3" checked>
+          <div class="modal__cards inactive" id="modalCardSpider">
+            <label for="radio-1" id="card-1" class="modal__card">
+              <img src="https://static.platzi.com/media/public/uploads/spider-man_db8af43d-b692-4986-a385-e645d286e142.png" alt="">
+            </label>
+            <label for="radio-2" id="card-2" class="modal__card">
+              <img src="https://static.platzi.com/media/public/uploads/spider-man-2_b24c96b3-6d59-496f-815d-32b25eba0141.png" alt="">
+            </label>
+            <label for="radio-3" id="card-3" class="modal__card">
+              <img src="https://static.platzi.com/media/public/uploads/spider-man-3_19f5c510-8059-4477-abf8-42249a5445b7.png" alt="">
+            </label>
+          </div>
+          <div class="modal__cards inactive" id="modalCardRobin">
+            <label for="radio-1" id="card-1" class="modal__card">
+              <img src="https://www.lego.com/cdn/cs/catalog/assets/bltaeb8d6812aecf3c5/1/Robin.png?width=320" alt="">
+            </label>
+            <label for="radio-2" id="card-2" class="modal__card">
+              <img src="https://www.lego.com/cdn/cs/catalog/assets/bltc534c727d0171671/1/76062_1to1_MF_ROBIN_336.png" alt="">
+            </label>
+            <label for="radio-3" id="card-3" class="modal__card">
+              <img src="https://www.lego.com/cdn/cs/catalog/assets/bltf8448ed228996b64/1/70357_Minifigure_05.png?width=320" alt="">
+            </label>
+          </div>
+          <div class="modal__cards inactive" id="modalCardBatman">
+            <label for="radio-1" id="card-1" class="modal__card">
+              <img src="https://lego.eliteoficial.com/cdn/shop/products/76181_1to1_288x.png?v=1641854221" alt="">
+            </label>
+            <label for="radio-2" id="card-2" class="modal__card">
+              <img src="https://bfs3bucket.s3.amazonaws.com/wp-content/uploads/2023/05/76252_1to1.png" alt="">
+            </label>
+            <label for="radio-3" id="card-3" class="modal__card">
+              <img src="https://i.pinimg.com/originals/60/47/04/604704c79dd70cbea43f02634a7346df.png" alt="">
+            </label>
+          </div>
+        </div>
+        <button class="btnAdd">I want it!</button>
+      </div>
     </section>
   </div>
+  <script src="./main.js"></script>
 </body>
 </html>
